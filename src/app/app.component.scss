@@ -1,27 +1,52 @@
 .heading {
+  color: #ffffff;
   align-content: center;
   align-self: center;
   text-align: center;
 }
 
-.lights {
-  align-content: center;
-  align-self: center;
+.flex-containerWindow {
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
-.blinds {
-  align-content: center;
-  align-self: center;
-  text-align: center;
+.flex-containerBlinds {
 }
 
+.flex-containerLights {
+}
+
+.lights-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.AllBlindsButton {
+  width: 80px;
+  height: 80px;
+  margin-top:1px;
+  margin-bottom:1px;
+  margin-right:10px;
+  background-color: #F9F1E4;
+}
 .blindsButton {
   width: 80px;
   height: 80px;
+  margin-top:1px;
+  margin-bottom:1px;
+  margin-left:3px;
+  margin-right:3px;
+  background-color: #FEF2E2;
 }
 
 .lightsButton {
   width: 140px;
   height: 80px;
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:3px;
+  margin-right:3px;
+  background-color: #FEF2E2;
+  align-content: center;
 }
