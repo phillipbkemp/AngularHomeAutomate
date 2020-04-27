@@ -1,21 +1,26 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<h3 class="heading">Blinds</h3>
+<div class="blinds">
+  <button mat-raised-button class="blindsButton" (click)="getPosts(14,'Up')"><mat-icon>keyboard_arrow_up</mat-icon></button> - 
+  <button mat-raised-button class="blindsButton" (click)="getPosts(10,'Up')"><mat-icon>keyboard_arrow_up</mat-icon></button>
+  <button mat-raised-button class="blindsButton" (click)="getPosts(12,'Up')"><mat-icon>keyboard_arrow_up</mat-icon></button>
+  <button mat-raised-button class="blindsButton" (click)="getPosts(13,'Up')"><mat-icon>keyboard_arrow_up</mat-icon></button>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="blinds">
+  <button mat-raised-button class="blindsButton" (click)="getPosts(14,'Stop')"><mat-icon>stop</mat-icon></button> - 
+  <button mat-raised-button class="blindsButton" (click)="getPosts(10,'Stop')"><mat-icon>stop</mat-icon></button>
+  <button mat-raised-button class="blindsButton" (click)="getPosts(12,'Stop')"><mat-icon>stop</mat-icon></button>
+  <button mat-raised-button class="blindsButton" (click)="getPosts(13,'Stop')"><mat-icon>stop</mat-icon></button>
+</div>
+<div class="blinds">
+  <button mat-raised-button class="blindsButton" (click)="getPosts(14,'Down')"><mat-icon>keyboard_arrow_down</mat-icon></button> - 
+  <button mat-raised-button class="blindsButton" (click)="getPosts(10,'Down')"><mat-icon>keyboard_arrow_down</mat-icon></button>
+  <button mat-raised-button class="blindsButton" (click)="getPosts(12,'Down')"><mat-icon>keyboard_arrow_down</mat-icon></button>
+  <button mat-raised-button class="blindsButton" (click)="getPosts(13,'Down')"><mat-icon>keyboard_arrow_down</mat-icon></button>
+</div>
 
-<router-outlet></router-outlet>
+<br>
+<br>
+<h3 class="heading">Lights</h3>
+<div class="lights"><button mat-raised-button class="lightsButton" (click)="getPosts(6,'On')">Spotlight On</button><button mat-raised-button class="lightsButton" (click)="getPosts(6,'Off')">Spotlight Off</button></div>
+<br>
+<div class="lights"><button mat-raised-button class="lightsButton" (click)="getPosts(7,'On')">Dresser Light On</button><button mat-raised-button class="lightsButton" (click)="getPosts(7,'Off')">Dresser Light Off</button></div>
