@@ -10,8 +10,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AppComponent {
   title = 'angular-home-automate';
-
-  private url = environment.api_url; 
+  private url = 'http://server/JSON'
   private _http: HttpClient;
   private _response: object;
   
