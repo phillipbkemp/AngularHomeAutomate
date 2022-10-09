@@ -1,35 +1,69 @@
 .heading {
+  color: #ffffff;
   align-content: center;
   align-self: center;
   text-align: center;
 }
 
-.lights {
-  align-content: center;
-  align-self: center;
+.flex-containerWindow {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+<<<<<<< HEAD
+=======
 }
 
-.blinds {
-  align-content: center;
-  align-self: center;
-  text-align: center;
+.flex-containerBlinds {
+>>>>>>> f25cde606866a5b638dbbc9009b0ce7c3eac6dff
 }
 
+.flex-containerLights {
+}
+
+.lights-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.AllBlindsButton {
+  width: 80px;
+  height: 80px;
+  margin-top:1px;
+  margin-bottom:1px;
+  margin-right:10px;
+  background-color: #F9F1E4;
+}
 .blindsButton {
   width: 80px;
   height: 80px;
+<<<<<<< HEAD
   margin-top:5px;
   margin-bottom:5px;
   margin-left:5px;
   margin-right:5px;
+=======
+  margin-top:1px;
+  margin-bottom:1px;
+  margin-left:3px;
+  margin-right:3px;
+  background-color: #FEF2E2;
+>>>>>>> f25cde606866a5b638dbbc9009b0ce7c3eac6dff
 }
 
 .lightsButton {
   width: 140px;
   height: 80px;
+<<<<<<< HEAD
   margin-top:0px;
   margin-bottom:20px;
   margin-left:5px;
   margin-right:5px;
+=======
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:3px;
+  margin-right:3px;
+  background-color: #FEF2E2;
+  align-content: center;
+>>>>>>> f25cde606866a5b638dbbc9009b0ce7c3eac6dff
 }
