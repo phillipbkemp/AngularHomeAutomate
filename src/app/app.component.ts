@@ -10,7 +10,7 @@ import { HttpClient } from '@angular/common/http';
 export class AppComponent {
   title = 'angular-home-automate';
   private url = 'http://server/JSON'
-  private hubitatUrl = 'http://hubitat/apps/api/261/devices'
+  private hubitatUrl = 'http://hubitat.local/apps/api/261/devices'
   private _http: HttpClient;
   private _response: object;
   
