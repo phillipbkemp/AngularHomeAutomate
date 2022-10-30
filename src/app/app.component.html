@@ -23,8 +23,8 @@
   <div class="flex-container-lights">
     <h3 class="heading">Lights</h3>
     <div class="lights-row">
-      <button mat-raised-button class="lightsButton" (click)="getPosts(6,'On')">Spotlight On</button>
-      <button mat-raised-button class="lightsButton" (click)="getPosts(6,'Off')">Spotlight Off</button>
+      <button mat-raised-button class="lightsButton" (click)="controlHubitatSwitch(294,'on')">Spotlight On</button>
+      <button mat-raised-button class="lightsButton" (click)="controlHubitatSwitch(294,'off')">Spotlight Off</button>
     </div>
     <div>
       <button mat-raised-button class="lightsButton" (click)="controlHubitatSwitch(289,'on')">Sideboard On</button>
